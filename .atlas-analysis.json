@@ -1,0 +1,62 @@
+{
+  "projectType": "saas",
+  "projectName": "Slice 'n Save: Easy Discounts",
+  "projectDescription": "A Shopify app that lets merchants create product, order, shipping, BOGO, tiered, and quantity break discounts with flexible conditions — no code required.",
+  "theme": "almond",
+  "primaryColor": "#7b7c7c",
+  "lightColor": "#060606",
+  "darkColor": "#c1c1c1",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "overview/features",
+              "overview/getting-started",
+              "overview/limitations"
+            ]
+          },
+          {
+            "group": "Discount Types",
+            "pages": [
+              "use-cases/amount-off-products",
+              "use-cases/amount-off-order",
+              "use-cases/free-shipping",
+              "use-cases/amount-off-shipping-rate",
+              "use-cases/bogo-buy-x-get-y",
+              "use-cases/tiered-discounts",
+              "use-cases/quantity-breaks"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Product-level discounts with cart, customer, and line-item conditions",
+    "Order-level discounts with flexible condition sets",
+    "Shipping discounts including free shipping and partial rate discounts",
+    "BOGO (Buy X Get Y) discounts with product-level criteria",
+    "Tiered discounts based on quantity or order subtotal",
+    "Quantity break discounts with min/max breakpoints",
+    "Discount combinations — stack multiple Slice 'n Save discounts",
+    "Scheduling via active date ranges",
+    "Multi-market eligibility management",
+    "No-code setup — replaces Shopify Scripts"
+  ],
+  "publicApiSurface": [
+    "Discount types: Amount off products, Amount off order, Amount off shipping, Buy X Get Y, Tiered, Quantity breaks",
+    "Conditions: Cart total, cart subtotal, cart country, cart language, cart attribute",
+    "Conditions: Product title, product vendor, product tags, product SKU, product weight, line item attribute, gift product, product shipping",
+    "Conditions: Customer lifetime spending, customer tags, customer type (B2B/B2C), customer status (LoggedIn/LoggedOut), customer total orders",
+    "Plans: Basic, Advanced, Plus",
+    "Discount method: automatic",
+    "Discount scheduling: active date/time range",
+    "Market management: per-discount market eligibility",
+    "Discount stacking: combination with other Slice 'n Save discounts"
+  ]
+}

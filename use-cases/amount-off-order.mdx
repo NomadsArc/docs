@@ -1,0 +1,42 @@
+---
+title: "Create Amount Off Order Discounts in Shopify"
+sidebarTitle: "Amount Off Order"
+description: "Step-by-step guide to creating an order-level discount using Slice 'n Save. Configure conditions, scheduling, and market eligibility for your discount."
+---
+
+The **Amount off order** discount type applies a fixed amount or percentage discount to the entire order total. Unlike product-level discounts, this discount type does not require product criteria — instead, you control eligibility through cart, customer, and line-item conditions.
+
+<Steps>
+  <Step title="Create a new discount">
+    Open the [Discounts](https://admin.shopify.com/apps/slice-n-save/discounts) section in the Slice 'n Save app and click **Create discount**.
+  </Step>
+  <Step title="Select the discount type">
+    Choose **Amount off order** from the list of discount types.
+  </Step>
+  <Step title="Set the method, title, and value">
+    Select the discount method (percentage or fixed amount), enter a title for the discount, and set the discount value.
+  </Step>
+  <Step title="Add conditions">
+    Add one or more conditions to control when this discount is valid. You can use cart conditions (total, subtotal, country, language, attributes), line-item conditions (product title, vendor, tags), or customer conditions (lifetime spending, tags, B2B/B2C type).
+  </Step>
+  <Step title="Set discount combinations">
+    Choose whether this discount can combine with other Slice 'n Save discounts on the same cart.
+  </Step>
+  <Step title="Schedule the discount">
+    To activate the discount at a future date or time, update the active dates in the **Active dates** section.
+  </Step>
+  <Step title="Manage markets">
+    In the **Manage markets** section, select which markets are eligible for this discount.
+  </Step>
+  <Step title="Save">
+    Click **Save** to activate your discount.
+  </Step>
+</Steps>
+
+<Note>
+  Order-level discounts do not use product **criteria** — conditions alone determine whether the discount applies. If you need to restrict the discount to specific products, use an **Amount off products** discount instead.
+</Note>
+
+<Tip>
+  To give B2B customers a 10% order discount when they spend over $500, add two conditions: Customer type = B2B and Cart total ≥ $500.
+</Tip>
