@@ -9,39 +9,47 @@
   },
   "favicon": "https://media.brand.dev/5db8a070-f10c-4850-ba79-c55dbaf627eb.png",
   "navigation": {
-    "languages": [
+    "products": [
       {
-        "language": "en",
-        "tabs": [
+        "product": "Slice 'n Save",
+        "languages": [
           {
-            "tab": "Documentation",
-            "groups": [
+            "language": "en",
+            "default": true,
+            "tabs": [
               {
-                "group": "Get Started",
-                "expanded": true,
-                "pages": [
-                  "introduction",
-                  "overview/features",
-                  "overview/getting-started",
-                  "overview/limitations"
-                ]
-              },
-              {
-                "group": "Discount Types",
-                "pages": [
-                  "use-cases/amount-off-products",
-                  "use-cases/amount-off-order",
-                  "use-cases/free-shipping",
-                  "use-cases/amount-off-shipping-rate",
-                  "use-cases/bogo-buy-x-get-y",
-                  "use-cases/tiered-discounts",
-                  "use-cases/quantity-breaks"
+                "tab": "Documentation",
+                "groups": [
+                  {
+                    "group": "Get Started",
+                    "expanded": true,
+                    "pages": [
+                      "introduction",
+                      "overview/features",
+                      "overview/getting-started",
+                      "overview/limitations"
+                    ]
+                  },
+                  {
+                    "group": "Discount Types",
+                    "pages": [
+                      "use-cases/amount-off-products",
+                      "use-cases/amount-off-order",
+                      "use-cases/free-shipping",
+                      "use-cases/amount-off-shipping-rate",
+                      "use-cases/bogo-buy-x-get-y",
+                      "use-cases/tiered-discounts",
+                      "use-cases/quantity-breaks"
+                    ]
+                  }
                 ]
               }
             ]
           }
-        ],
-        "default": true
+        ]
+      },
+      {
+        "product": "Dynamic Checkout Customizer"
       }
     ]
   },
