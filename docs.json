@@ -11,7 +11,7 @@
   "navigation": {
     "languages": [
       {
-        "language": "cn",
+        "language": "en",
         "tabs": [
           {
             "tab": "Documentation",
@@ -40,7 +40,8 @@
               }
             ]
           }
-        ]
+        ],
+        "default": true
       }
     ]
   },
