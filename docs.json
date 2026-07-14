@@ -4,8 +4,8 @@
   "theme": "almond",
   "colors": {
     "primary": "#7b7c7c",
-    "light": "#060606",
-    "dark": "#c1c1c1"
+    "light": "#c1c1c1",
+    "dark": "#060606"
   },
   "favicon": "https://media.brand.dev/5db8a070-f10c-4850-ba79-c55dbaf627eb.png",
   "navigation": {
