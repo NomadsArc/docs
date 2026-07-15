@@ -17,62 +17,82 @@
           {
             "product": "Slice 'n Save",
             "icon": "melon-slice",
-            "groups": [
+            "tabs": [
               {
-                "group": "Get Started",
-                "expanded": true,
-                "pages": [
-                  "sns/introduction",
-                  "sns/overview/features",
-                  "sns/overview/getting-started",
-                  "sns/overview/limitations"
+                "tab": "Docs",
+                "groups": [
+                  {
+                    "group": "Get Started",
+                    "expanded": true,
+                    "pages": [
+                      "sns/introduction",
+                      "sns/overview/features",
+                      "sns/overview/getting-started",
+                      "sns/overview/limitations"
+                    ]
+                  },
+                  {
+                    "group": "Discount Types",
+                    "pages": [
+                      "sns/use-cases/amount-off-products",
+                      "sns/use-cases/amount-off-order",
+                      "sns/use-cases/free-shipping",
+                      "sns/use-cases/amount-off-shipping-rate",
+                      "sns/use-cases/bogo-buy-x-get-y",
+                      "sns/use-cases/tiered-discounts",
+                      "sns/use-cases/quantity-breaks"
+                    ]
+                  }
                 ]
               },
               {
-                "group": "Discount Types",
-                "pages": [
-                  "sns/use-cases/amount-off-products",
-                  "sns/use-cases/amount-off-order",
-                  "sns/use-cases/free-shipping",
-                  "sns/use-cases/amount-off-shipping-rate",
-                  "sns/use-cases/bogo-buy-x-get-y",
-                  "sns/use-cases/tiered-discounts",
-                  "sns/use-cases/quantity-breaks"
-                ]
+                "tab": "Insall App",
+                "icon": "arrow-up-right-from-square",
+                "href": "https://apps.shopify.com/slice-n-save"
               }
             ]
           },
           {
             "product": "Dynamic Checkout Customizer",
             "icon": "cart-plus",
-            "groups": [
+            "tabs": [
               {
-                "group": "Overview",
-                "pages": [
-                  "dcc/overview/welcome",
-                  "dcc/overview/features"
+                "tab": "Docs",
+                "groups": [
+                  {
+                    "group": "Overview",
+                    "pages": [
+                      "dcc/overview/welcome",
+                      "dcc/overview/features"
+                    ]
+                  },
+                  {
+                    "group": "Quickstart",
+                    "pages": [
+                      "dcc/quickstart/installation",
+                      "dcc/quickstart/setup"
+                    ]
+                  },
+                  {
+                    "group": "Use Cases",
+                    "pages": [
+                      "dcc/use-cases/customize-shipping",
+                      "dcc/use-cases/customize-payments"
+                    ]
+                  },
+                  {
+                    "group": "Support",
+                    "pages": [
+                      "dcc/support/contact",
+                      "dcc/support/faq"
+                    ]
+                  }
                 ]
               },
               {
-                "group": "Quickstart",
-                "pages": [
-                  "dcc/quickstart/installation",
-                  "dcc/quickstart/setup"
-                ]
-              },
-              {
-                "group": "Use Cases",
-                "pages": [
-                  "dcc/use-cases/customize-shipping",
-                  "dcc/use-cases/customize-payments"
-                ]
-              },
-              {
-                "group": "Support",
-                "pages": [
-                  "dcc/support/contact",
-                  "dcc/support/faq"
-                ]
+                "tab": "Install App",
+                "icon": "arrow-up-right-from-square",
+                "href": "https://apps.shopify.com/dynamic-checkout-customizer"
               }
             ]
           }
