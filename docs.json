@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "name": "Slice 'n Save",
-  "theme": "almond",
+  "theme": "luma",
   "colors": {
     "primary": "#7b7c7c",
     "light": "#c1c1c1",
