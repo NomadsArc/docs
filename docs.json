@@ -46,7 +46,8 @@
               }
             ]
           }
-        ]
+        ],
+        "icon": "melon-slice"
       },
       {
         "product": "Dynamic Checkout Customizer",
@@ -89,7 +90,8 @@
               }
             ]
           }
-        ]
+        ],
+        "icon": "cart-plus"
       }
     ]
   },
