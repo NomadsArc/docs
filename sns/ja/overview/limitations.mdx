@@ -1,0 +1,134 @@
+---
+title: "Shopify Functions Limits for Slice 'n Save Discounts"
+sidebarTitle: "Limitations"
+description: "Understand Shopify Functions resource limits that affect how many discount items, conditions, and criteria you can use in Slice 'n Save."
+---
+
+Slice 'n Save is powered by Shopify Functions — Shopify's serverless compute layer for discount logic. Shopify imposes fixed and dynamic resource limits on all functions, which affects how many discount items, conditions, and criteria you can include in a single discount rule. This page outlines those limits so you can plan your discounts accordingly.
+
+<Warning>
+  You can create up to **25 Automatic discounts** at a time across your Shopify store. Once you reach this limit, you must delete an existing automatic discount before creating a new one.
+</Warning>
+
+## Per-Discount Type Limits
+
+Different discount categories have different capacity limits. The tables below show approximate instruction counts at various item, condition, and criteria configurations. Use these as a guide when designing complex discount rules.
+
+<Tabs>
+  <Tab title="Amount off Products">
+    <Accordion title="Basic">
+      | Items | Conditions | Criteria | Instruction Count |
+      |-------|------------|----------|-------------------|
+      | 1     | 3          | 3        | 2.9973 M          |
+      | 5     | 3          | 3        | 4.5599 M          |
+      | 10    | 3          | 3        | 6.9614 M          |
+      | 16    | 3          | 3        | 10.4966 M         |
+    </Accordion>
+    <Accordion title="Advanced">
+      | Items | Conditions | Criteria | Instruction Count |
+      |-------|------------|----------|-------------------|
+      | 1     | 3          | 3        | 3.1187 M          |
+      | 5     | 3          | 3        | 4.8460 M          |
+      | 10    | 3          | 3        | 7.4354 M          |
+      | 15    | 3          | 3        | 10.4798 M         |
+      | 1     | 6          | 5        | 3.7736 M          |
+      | 5     | 6          | 5        | 6.7475 M          |
+      | 9     | 6          | 5        | 10.5827 M         |
+      | 35    | 1          | 1        | 10.9313 M         |
+    </Accordion>
+  </Tab>
+  <Tab title="Amount off Order">
+    <Accordion title="Basic">
+      | Items | Conditions | Instruction Count |
+      |-------|------------|-------------------|
+      | 1     | 4          | 2.1336 M          |
+      | 15    | 4          | 3.3181 M          |
+      | 30    | 4          | 4.5777 M          |
+      | 45    | 4          | 5.8114 M          |
+      | 1     | 7          | 2.4391 M          |
+      | 15    | 7          | 3.6213 M          |
+      | 30    | 7          | 4.8799 M          |
+    </Accordion>
+    <Accordion title="Advanced">
+      | Items | Conditions | Instruction Count |
+      |-------|------------|-------------------|
+      | 1     | 4          | 2.1452 M          |
+      | 15    | 4          | 3.4848 M          |
+      | 30    | 4          | 4.9076 M          |
+      | 45    | 4          | 6.3122 M          |
+      | 1     | 7          | 2.4231 M          |
+      | 15    | 7          | 3.7667 M          |
+      | 30    | 7          | 5.1918 M          |
+    </Accordion>
+  </Tab>
+  <Tab title="Amount off Shipping">
+    <Accordion title="Basic">
+      | Items | Conditions | Instruction Count |
+      |-------|------------|-------------------|
+      | 1     | 4          | 2.4555 M          |
+      | 15    | 4          | 2.9070 M          |
+      | 30    | 4          | 4.9108 M          |
+      | 1     | 7          | 2.7778 M          |
+      | 15    | 7          | 3.9491 M          |
+      | 30    | 7          | 5.2144 M          |
+    </Accordion>
+    <Accordion title="Advanced">
+      | Items | Conditions | Instruction Count |
+      |-------|------------|-------------------|
+      | 1     | 4          | 2.4725 M          |
+      | 15    | 4          | 3.8141 M          |
+      | 30    | 4          | 5.2428 M          |
+      | 1     | 7          | 2.7610 M          |
+      | 15    | 7          | 4.0823 M          |
+      | 30    | 7          | 5.5090 M          |
+    </Accordion>
+  </Tab>
+  <Tab title="Tiered Discounts">
+    | Items | Conditions | Criteria | Instruction Count |
+    |-------|------------|----------|-------------------|
+    | 1     | 1          | 2        | 3.3862 M          |
+    | 15    | 1          | 2        | 8.7318 M          |
+    | 19    | 1          | 2        | 10.7333 M         |
+  </Tab>
+  <Tab title="Quantity Break Discounts">
+    | Items | Conditions | Criteria | Instruction Count |
+    |-------|------------|----------|-------------------|
+    | 1     | 2          | 1        | 3.1627 M          |
+    | 15    | 2          | 1        | 6.6208 M          |
+    | 28    | 2          | 1        | 10.8969 M         |
+    | 1     | 2          | 2        | 3.2942 M          |
+    | 21    | 2          | 2        | 10.8841 M         |
+  </Tab>
+  <Tab title="BOGO Discounts">
+    | Items | Conditions | Criteria | Instruction Count |
+    |-------|------------|----------|-------------------|
+    | 8     | 2          | 1        | 5.2674 M          |
+    | 8     | 2          | 2        | 6.2455 M          |
+    | 10    | 3          | 3        | 9.2320 M          |
+  </Tab>
+</Tabs>
+
+## Shopify Functions Fixed Resource Limits
+
+These limits are hard-coded by Shopify and apply to every function execution, regardless of cart size or discount complexity.
+
+| Resource                | Limit              |
+|-------------------------|--------------------|
+| Compiled binary size    | 256 kB             |
+| Runtime linear memory   | 10,000 kB          |
+| Runtime stack memory    | 512 kB             |
+| Logs written to STDERR  | 1 kB (truncated)   |
+
+## Shopify Functions Dynamic Resource Limits
+
+These limits govern how much compute work a function can perform during a single execution. They apply to carts with up to 200 line items.
+
+| Resource                   | Limit (up to 200 line items)  |
+|----------------------------|-------------------------------|
+| Execution instruction count | 11 million instructions       |
+| Function input             | 64 kB                         |
+| Function output            | 20 kB                         |
+
+<Info>
+  For carts with more than 200 line items, the dynamic resource limits above scale proportionally as the number of cart lines increases.
+</Info>

@@ -1,0 +1,62 @@
+---
+title: "Create Tiered Discounts Based on Quantity or Spend"
+sidebarTitle: "Tiered Discounts"
+description: "Build tiered discount structures in Slice 'n Save that scale discounts as customers meet quantity or subtotal thresholds in their cart."
+---
+
+Tiered discounts in Slice 'n Save let you reward customers with progressively larger discounts as their cart quantity or subtotal increases. Each tier defines a minimum quantity or subtotal threshold and the discount that applies when that threshold is met — perfect for bulk-buy incentives and seasonal sales.
+
+<Warning>
+  Tiered discounts require the **Plus** plan. Upgrade your plan from the Slice
+  'n Save app settings before setting up this discount type.
+</Warning>
+
+<Steps>
+  <Step title="Create a new discount">
+    Open the [Discounts](https://admin.shopify.com/apps/slice-n-save/discounts)
+    section in the Slice 'n Save app and click **Create discount**.
+  </Step>
+  <Step title="Select the discount type">
+    Choose **Tiered discount** from the list of discount types.
+  </Step>
+  <Step title="Set the method and title">
+    Select the discount method and enter a title for the discount.
+  </Step>
+  <Step title="Add tiers">
+    Add multiple tiers to define the discount structure. For each tier, set the
+    minimum quantity or subtotal threshold and the corresponding discount value.
+    The highest tier whose threshold the cart meets will be applied.
+  </Step>
+  <Step title="Add conditions">
+    Add one or more conditions to control when the tiered discount is valid.
+    Conditions can target cart totals, product attributes, or customer data.
+  </Step>
+  <Step title="Add criteria">
+    Add product-level criteria to filter which products in the cart count toward
+    the tier thresholds. This lets you scope the tier to specific product tags,
+    vendors, or other attributes.
+  </Step>
+  <Step title="Set discount combinations">
+    Choose whether this discount can combine with other Slice 'n Save discounts.
+  </Step>
+  <Step title="Schedule the discount">
+    To activate at a future date or time, update the active dates.
+  </Step>
+  <Step title="Manage markets">
+    Select which markets are eligible for this discount.
+  </Step>
+  <Step title="Save">
+    Click **Save** to activate your discount.
+  </Step>
+</Steps>
+
+<Tip>
+  **BFCM sale example:** Apply 10% off when the minimum subtotal of items tagged
+  "bfcm sale" is $100. Apply 20% off when the minimum quantity of those items is
+  10. Add a third tier at $200 subtotal to unlock 30% off for your top spenders.
+</Tip>
+
+<Info>
+  When a cart matches multiple tier thresholds, the **highest matching tier** is
+  applied — not all tiers simultaneously.
+</Info>
