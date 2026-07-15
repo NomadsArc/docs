@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "Slice 'n Save",
+  "name": "NomadsArc Apps",
   "theme": "luma",
   "colors": {
     "primary": "#7b7c7c",
@@ -49,7 +49,47 @@
         ]
       },
       {
-        "product": "Dynamic Checkout Customizer"
+        "product": "Dynamic Checkout Customizer",
+        "languages": [
+          {
+            "language": "en",
+            "tabs": [
+              {
+                "tab": "Documentation",
+                "groups": [
+                  {
+                    "group": "Overview",
+                    "pages": [
+                      "dcc/overview/welcome",
+                      "dcc/overview/features"
+                    ]
+                  },
+                  {
+                    "group": "Quickstart",
+                    "pages": [
+                      "dcc/quickstart/installation",
+                      "dcc/quickstart/setup"
+                    ]
+                  },
+                  {
+                    "group": "Use Cases",
+                    "pages": [
+                      "dcc/use-cases/customize-shipping",
+                      "dcc/use-cases/customize-payments"
+                    ]
+                  },
+                  {
+                    "group": "Support",
+                    "pages": [
+                      "dcc/support/contact",
+                      "dcc/support/faq"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
