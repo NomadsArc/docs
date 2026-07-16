@@ -63,22 +63,29 @@
                     "group": "Overview",
                     "pages": [
                       "dcc/overview/welcome",
-                      "dcc/overview/features",
+                      "dcc/overview/our-features",
                       "dcc/overview/getting-started"
-                    ]
-                  },
-                  {
-                    "group": "Quickstart",
-                    "pages": [
-                      "dcc/quickstart/installation",
-                      "dcc/quickstart/setup"
                     ]
                   },
                   {
                     "group": "Use Cases",
                     "pages": [
                       "dcc/use-cases/customize-shipping",
-                      "dcc/use-cases/customize-payments"
+                      "dcc/use-cases/customize-payments",
+                      "dcc/use-cases/dynamic-upsell",
+                      "dcc/use-cases/static-upsell",
+                      "dcc/use-cases/promotional-banner",
+                      "dcc/use-cases/trustpilot-reviews-image",
+                      "dcc/use-cases/supported-payment-icons",
+                      "dcc/use-cases/trust-badges",
+                      "dcc/use-cases/shipping-and-customs-policies",
+                      "dcc/use-cases/content-for-b2b-b2c",
+                      "dcc/use-cases/custom-fields",
+                      "dcc/use-cases/survey-form",
+                      "dcc/use-cases/quantity-selector",
+                      "dcc/use-cases/add-notes",
+                      "dcc/use-cases/display-tags",
+                      "dcc/use-cases/address-validation"
                     ]
                   },
                   {
