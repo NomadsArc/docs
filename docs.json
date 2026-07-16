@@ -60,10 +60,6 @@
                 "tab": "Docs",
                 "groups": [
                   {
-                    "group": "Get Started",
-                    "pages": []
-                  },
-                  {
                     "group": "Overview",
                     "pages": [
                       "dcc/overview/welcome",
