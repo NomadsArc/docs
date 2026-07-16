@@ -12,77 +12,107 @@ How to Upsell or Cross Sell Products on Checkout using the **Upsell -> Static** 
                 width="100%"
                 height="480">
             </iframe>
-
-*Static Upsell Tutorial*
-
+            
 ## Guide
 
-1. Create a new [customization](https://admin.shopify.com/apps/dynamic-checkout-customizer/customizations).
+<Steps>
+  <Step title="Create a new customization">
+    Create a new [customization](https://admin.shopify.com/apps/dynamic-checkout-customizer/customizations).
 
-![](/images/28fda48321.png)
+    ![](/images/28fda48321.png)
+  </Step>
 
-2. Select the **Upsell** category.
+  <Step title="Select the Upsell category">
+    Choose **Upsell** as the customization category.
 
-![](/images/c6e18f14d6.png)
+    ![](/images/c6e18f14d6.png)
+  </Step>
 
-3. Select **Static** upsell type from the options to upsell products manually on the checkout.
+  <Step title="Choose the Static Upsell type">
+    Select **Static** to manually choose the products you want to recommend during checkout.
 
-![](/images/cb62c926f8.png)
+    ![](/images/cb62c926f8.png)
+  </Step>
 
-4. Select **Dynamic Render** option from the given placement options.
+  <Step title="Choose a placement">
+    Select **Dynamic Render** from the available placement options.
 
-![](/images/fca81e05df.png)
+    ![](/images/fca81e05df.png)
+  </Step>
 
-5. Add multiple **conditions** to handle the visibility of the customization on the checkout.
+  <Step title="Configure display conditions">
+    Add one or more **conditions** to control when the upsell is displayed during checkout.
 
-![](/images/6ded21dd6d.png)
+    ![](/images/6ded21dd6d.png)
+  </Step>
 
-6. Add the **products** manually and adjust the max. product count for display on the checkout
+  <Step title="Select upsell products">
+    Manually choose the products you want to display and configure the **Maximum Product Count** shown during checkout.
 
-![](/images/52300d2ae3.png)
+    ![](/images/52300d2ae3.png)
+  </Step>
 
-7. Adjust the **display settings** for the upsell customization block according to your preferences.
+  <Step title="Customize the display">
+    Configure the **Display Settings** to control how the upsell products appear during checkout.
 
-![](/images/1b17f45e2e.png)
+    ![](/images/1b17f45e2e.png)
+  </Step>
 
-8. Change the **status** to active to enable the customization block.
+  <Step title="Activate the customization">
+    Change the **Status** to **Active** to enable the customization.
 
-![](/images/f991470450.png)
+    ![](/images/f991470450.png)
+  </Step>
 
-9. Adjust the **priority** between 0 to 100 to cover multiple use cases for the customizations.
+  <Step title="Set the priority">
+    Configure the **Priority** (0–100) to determine the execution order when multiple customizations are eligible.
 
-![](/images/a0c710d2c1.png)
+    ![](/images/a0c710d2c1.png)
+  </Step>
 
-10. In the **placement** tab, copy the placement ID which will be used on the checkout page.
+  <Step title="Copy the Placement ID">
+    Open the **Placement** tab and copy the generated **Placement ID**. You'll use this in the Shopify Checkout Editor.
 
-![](/images/6d39dccd2f.png)
+    ![](/images/6d39dccd2f.png)
+  </Step>
 
-11. Click on the **Save** button to save the changes.
+  <Step title="Save the customization">
+    Click **Save** to store your configuration.
 
-![](/images/27bac2b95a.png)
+    ![](/images/27bac2b95a.png)
+  </Step>
 
-12. Go to store [Settings](https://admin.shopify.com/settings), click Checkout and then select a checkout profile and click on **customize** button to start the customization process.
+  <Step title="Open the Checkout Editor">
+    Go to your Shopify **Settings → Checkout**, select your checkout profile, and click **Customize**.
 
-![](/images/ebe8a89b62.png)
+    ![](/images/ebe8a89b62.png)
+  </Step>
 
-13. In the [Checkout editor](https://admin.shopify.com/settings/checkout/editor), click on the **Add app block** button located at the bottom left corner of the page.
+  <Step title="Add the app block">
+    In the Checkout Editor, click **Add app block**.
 
-![](/images/e989097815.png)
+    ![](/images/e989097815.png)
 
-:::info
+    <Note>
+      Make sure the app block is placed in the same checkout placement you selected in Dynamic Checkout Customizer.
+    </Note>
+  </Step>
 
-Make sure you that you have placed the app block at the same placement as selected in the app.
+  <Step title="Configure the app block">
+    Select the **Checkout – Upsell Products** app block, drag it to the desired location, and paste the copied **Placement ID**.
 
-:::
+    ![](/images/5f095688e4.png)
+  </Step>
 
-14. Select the **Checkout - Upsell Products** app block, drag and drop the app block at the desired location and paste the placement ID to view the customization block.
+  <Step title="Publish your changes">
+    Click **Save** in the Checkout Editor to publish the customization.
 
-![](/images/5f095688e4.png)
+    ![](/images/04e0a1ca01.png)
+  </Step>
+</Steps>
 
-15. Click on the **Save** button to publish the changes live for the customers.
+<Note>
+  **Why does it matter?**
 
-![](/images/04e0a1ca01.png)
-
-## Why does it matter?
-
-[FameOnCentral](https://fameoncentral.com/) is using Static Upsell customization and Increased their AOV by **20%**.
+  [FameOnCentral](https://fameoncentral.com/) uses the **Static Upsell** customization to promote manually selected products during checkout, helping increase average order value (AOV) by encouraging customers to add complementary items before completing their purchase.
+</Note>

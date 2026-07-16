@@ -13,72 +13,101 @@ How to add **Custom** **Tags** for each cart item on the Checkout using the **Ca
                 height="480">
             </iframe>
 
-*Display Tags Tutorial*
 
 ## Guide
 
-1. Create a new [customization](https://admin.shopify.com/apps/dynamic-checkout-customizer/customizations).
+<Steps>
+  <Step title="Create a new customization">
+    Create a new [customization](https://admin.shopify.com/apps/dynamic-checkout-customizer/customizations).
 
-![](/images/28fda48321.png)
+    ![](/images/28fda48321.png)
+  </Step>
 
-2. Select the **Cart Item Details** category.
+  <Step title="Select the Cart Item Details category">
+    Choose **Cart Item Details** as the customization category.
 
-![](/images/05437cb8d0.png)
+    ![](/images/05437cb8d0.png)
+  </Step>
 
-3. Select **Display Tags**, a cart line details type from the options for displaying the custom tags on the checkout for each cart item.
+  <Step title="Choose the Display Tags type">
+    Select **Display Tags** from the available Cart Item Details options to display custom product tags for each cart item during checkout.
 
-![](/images/b5653aa476.png)
+    ![](/images/b5653aa476.png)
+  </Step>
 
-4. Select **Render After Each Cart Item** option from the given placement options.
+  <Step title="Choose a placement">
+    Select **Render After Each Cart Item** from the available placement options.
 
-![](/images/08417d9e12.png)
+    ![](/images/08417d9e12.png)
+  </Step>
 
-5. Add multiple **conditions** to handle the visibility of the customization on the checkout.
+  <Step title="Configure display conditions">
+    Add one or more **conditions** to control when the customization is displayed during checkout.
 
-![](/images/391aa0a76c.png)
+    ![](/images/391aa0a76c.png)
+  </Step>
 
-6. Adjust the **Display Tags** settings for the Edit Cart Items customization block which includes conditions for the **product tags** and their alternate tag values for each cart line item note.
+  <Step title="Configure Display Tags settings">
+    Configure the **Display Tags** settings by mapping **Product Tags** to the custom tag values you want to display for each cart item.
 
-![](/images/1005b6fadc.png)
+    ![](/images/1005b6fadc.png)
+  </Step>
 
-7. Change the **status** to active to enable the customization block.
+  <Step title="Activate the customization">
+    Change the **Status** to **Active** to enable the customization.
 
-![](/images/6e0f08c8a3.png)
+    ![](/images/6e0f08c8a3.png)
+  </Step>
 
-8. Adjust the **priority** between 0 to 100 to cover multiple use cases for the customizations.
+  <Step title="Set the priority">
+    Configure the **Priority** (0–100) to determine the execution order when multiple customizations are eligible.
 
-![](/images/b72ef23d7c.png)
+    ![](/images/b72ef23d7c.png)
+  </Step>
 
-9. In the **placement** tab, copy the placement ID which will be used on the checkout page.
+  <Step title="Copy the Placement ID">
+    Open the **Placement** tab and copy the generated **Placement ID**. You'll use this in the Shopify Checkout Editor.
 
-![](/images/55582f77e9.png)
+    ![](/images/55582f77e9.png)
+  </Step>
 
-10. Click on the **Save** button to save the changes.
+  <Step title="Save the customization">
+    Click **Save** to store your configuration.
 
-![](/images/e51f7df7f1.png)
+    ![](/images/e51f7df7f1.png)
+  </Step>
 
-11. Go to store [Settings](https://admin.shopify.com/settings), click Checkout and then select a checkout profile and click on **customize** button to start the customization process.
+  <Step title="Open the Checkout Editor">
+    Go to your Shopify **Settings → Checkout**, select your checkout profile, and click **Customize**.
 
-![](/images/ebe8a89b62.png)
+    ![](/images/ebe8a89b62.png)
+  </Step>
 
-12. In the [Checkout editor](https://admin.shopify.com/settings/checkout/editor), click on the **Add app block** button located at the bottom left corner of the page.
+  <Step title="Add the app block">
+    In the Checkout Editor, click **Add app block**.
 
-![](/images/e989097815.png)
+    ![](/images/e989097815.png)
 
-:::info
+    <Note>
+      Make sure the app block is placed in the same checkout placement you selected in Dynamic Checkout Customizer.
+    </Note>
+  </Step>
 
-Make sure you that you have placed the app block at the same placement as selected in the app.
+  <Step title="Configure the app block">
+    Select the **Checkout – Edit Cart Items** app block, drag it to the desired location, and paste the copied **Placement ID**.
 
-:::
+    ![](/images/c7d92b805d.png)
+  </Step>
 
-13. Select the **Checkout - Edit Cart Items** app block, drag and drop the app block at the desired location and paste the placement ID to view the customization block.
+  <Step title="Publish your changes">
+    Click **Save** in the Checkout Editor to publish the customization. Refresh your checkout page to verify that the Display Tags customization is active.
 
-![](/images/c7d92b805d.png)
+    ![](/images/52a488ae53.png)
+  </Step>
+</Steps>
 
-14. Click on the **Save** button to publish the changes live for the customers. Refresh the page to view the changes on the checkout page.
+<Note>
+  **Why does it matter?**
 
-![](/images/52a488ae53.png)
-
-## Why does it matter?
-
-[BoutiquesByTheBox](https://boutiquebythebox.com) is using **Cart Item Details -> Display Tags** customization for displaying custom tags and increased their AOV by **10%**.
+  [BoutiquesByTheBox](https://boutiquebythebox.com) uses the **Cart Item Details → Display Tags** customization to highlight important product information during checkout, creating a more informative shopping experience that can help increase average order value (AOV).
+</Note>

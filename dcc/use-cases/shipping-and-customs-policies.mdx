@@ -15,68 +15,103 @@ How to display **Shipping** and **Customs policies** on the Checkout using the N
 
 ## Guide
 
-1. Create a new [customization](https://admin.shopify.com/apps/dynamic-checkout-customizer/customizations).
+<Steps>
+  <Step title="Create a new customization">
+    Create a new [customization](https://admin.shopify.com/apps/dynamic-checkout-customizer/customizations).
 
-![](/images/28fda48321.png)
+    ![](/images/28fda48321.png)
+  </Step>
 
-2. Select the **Notifications** category.
+  <Step title="Select the Notifications category">
+    Choose **Notifications** as the customization category.
 
-![](/images/86aed9c810.png)
+    ![](/images/86aed9c810.png)
+  </Step>
 
-3. Select **Content**, a notifications type from the options for displaying the image or text on the checkout.
+  <Step title="Choose the Content type">
+    Select **Content** from the available notification types to display custom text or images during checkout.
 
-![](/images/328784f3c3.png)
+    ![](/images/328784f3c3.png)
+  </Step>
 
-4. Select **Dynamic Render** option from the given placement options.
+  <Step title="Choose a placement">
+    Select **Dynamic Render** from the available placement options.
 
-![](/images/fca81e05df.png)
+    ![](/images/fca81e05df.png)
+  </Step>
 
-5. Add multiple **conditions** to handle the visibility of the customization on the checkout.
+  <Step title="Configure display conditions">
+    Add one or more **conditions** to control when the content appears during checkout.
 
-![](/images/ce9058af5a.png)
+    ![](/images/ce9058af5a.png)
+  </Step>
 
-6. Adjust the **content settings** for the content customization block which includes **text**, **text** **appearance**, **text size** and **text alignment**.
+  <Step title="Configure the content">
+    Configure the **Content Settings**, including:
 
-![](/images/188a845be5.png)
+    - **Text**
+    - **Text Appearance**
+    - **Text Size**
+    - **Text Alignment**
 
-7. Change the **status** to active to enable the customization block.
+    ![](/images/188a845be5.png)
+  </Step>
 
-![](/images/edeb7e6ee7.png)
+  <Step title="Activate the customization">
+    Change the **Status** to **Active** to enable the customization.
 
-8. Adjust the **priority** between 0 to 100 to cover multiple use cases for the customizations.
+    ![](/images/edeb7e6ee7.png)
+  </Step>
 
-![](/images/ef15dfc6e5.png)
+  <Step title="Set the priority">
+    Configure the **Priority** (0–100) to determine the execution order when multiple customizations are eligible.
 
-9. In the **placement** tab, copy the placement ID which will be used on the checkout page.
+    ![](/images/ef15dfc6e5.png)
+  </Step>
 
-![](/images/a76aa11836.png)
+  <Step title="Copy the Placement ID">
+    Open the **Placement** tab and copy the generated **Placement ID**. You'll use this in the Shopify Checkout Editor.
 
-10. Click on the **Save** button to save the changes.
+    ![](/images/a76aa11836.png)
+  </Step>
 
-![](/images/868a548598.png)
+  <Step title="Save the customization">
+    Click **Save** to store your configuration.
 
-11. Go to store [Settings](https://admin.shopify.com/settings), click Checkout and then select a checkout profile and click on **customize** button to start the customization process.
+    ![](/images/868a548598.png)
+  </Step>
 
-![](/images/ebe8a89b62.png)
+  <Step title="Open the Checkout Editor">
+    Go to your Shopify **Settings → Checkout**, select your checkout profile, and click **Customize**.
 
-12. In the [Checkout editor](https://admin.shopify.com/settings/checkout/editor), click on the **Add app block** button located at the bottom left corner of the page.
+    ![](/images/ebe8a89b62.png)
+  </Step>
 
-![](/images/e989097815.png)
+  <Step title="Add the app block">
+    In the Checkout Editor, click **Add app block**.
 
-:::info
+    ![](/images/e989097815.png)
 
-Make sure you that you have placed the app block at the same placement as selected in the app.
+    <Note>
+      Make sure the app block is placed in the same checkout placement you selected in Dynamic Checkout Customizer.
+    </Note>
+  </Step>
 
-:::
+  <Step title="Configure the app block">
+    Select the **Checkout – Image Content** app block, drag it to the desired location, and paste the copied **Placement ID**.
 
-13. Select the **Checkout - Image Content** app block, drag and drop the app block at the desired location and paste the placement ID to view the customization block.
+    ![](/images/6f53fdc188.png)
+  </Step>
 
-![](/images/6f53fdc188.png)
+  <Step title="Publish your changes">
+    Click **Save** in the Checkout Editor to publish the customization.
 
-14. Click on the **Save** button to publish the changes live for the customers.
+    ![](/images/bc45a84e77.png)
+  </Step>
+</Steps>
 
-![](/images/bc45a84e77.png)
+<Note>
+  **Why does it matter?**
 
-## Why does it matter?
-
-[Gimaguas](https://gimaguas.com/) is using **Notifications -> Content** customization for displaying Shipping or Customs policies and improved their Brand Reputation by their 5%.
+  [Gimaguas](https://gimaguas.com/) uses the **Notifications → Content** customization to display shipping and customs policies during checkout, helping customers make informed purchasing decisions while strengthening trust and brand reputation.
+</Note>

@@ -1,42 +1,83 @@
 ---
-title: "📝 Getting Started"
+title: "📝 Getting Started with Dynamic Checkout Customizer"
+sidebarTitle: "📝 Getting Started"
+description: "Learn the core concepts, customization types, placement options, and available conditions before creating your first checkout customization."
 ---
+
+Before creating your first checkout customization, it's helpful to understand the terminology used throughout Dynamic Checkout Customizer (DCC). This guide introduces the key concepts, customization categories, placement options, and the conditions you can use to control when each customization appears.
+
+---
+
 ## Key Terms
 
-Get yourself familiarize with these terms before staring using the Dynamic Checkout Customizer (DCC).
+| Term | Description |
+|---|---|
+| **Dynamic Checkout Customizer (DCC)** | A no-code Shopify Plus app that lets you customize the checkout experience with upsells, notifications, trust elements, custom fields, and other checkout enhancements. |
+| **Customization** | A configurable checkout block that adds functionality or content to the checkout page. Each customization includes its own settings, conditions, priority, and status. |
+| **Category** | The primary grouping of customizations, such as **Upsells**, **Notifications**, or **Cart Item Details**. |
+| **Upsells** | Recommend additional or complementary products to increase average order value during checkout. |
+| **Notifications** | Display banners, messages, images, trust badges, payment icons, and other informational content throughout the checkout. |
+| **Cart Item Details** | Add functionality that enhances individual cart items, such as quantity editing, notes, and custom tags. |
+| **Type** | A specific customization within a category. For example, **Dynamic Upsell**, **Static Upsell**, **Banner**, **Content**, or **Form Elements**. |
+| **Dynamic Upsell** | Automatically recommends products using Shopify product metafields. |
+| **Static Upsell** | Displays manually selected products as checkout upsells. |
+| **Banner** | Shows promotional or informational banners with customizable styling and status indicators. |
+| **Content** | Displays custom text, images, or other informational content within the checkout. |
+| **Form Elements** | Adds interactive fields such as checkboxes and text inputs to collect additional customer information. |
+| **Edit Quantity** | Allows customers to change product quantities directly from the checkout. |
+| **Add Notes** | Lets customers attach notes to individual cart items during checkout. |
+| **Display Tags** | Shows custom product or order tags within the checkout interface. |
+| **Placement** | Determines where a customization appears on the checkout page. Every customization requires a valid placement location. |
+| **Dynamic Blocks** | Standard checkout insertion points such as **After Email**, **After Shipping**, **After Cart Items**, **After Discounts**, and **After Subtotal**. |
+| **Static Blocks** | Specialized checkout locations reserved for specific functionality, such as after a cart item or shipping option. |
 
-| Role                  | Capabilities                                                                                                                                                                                              |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| DCC                   | It's short form for our app named Dynamic Checkout Customizer for Shopify Plus merchants.                                                                                                                 |
-| Customization         | It refers to the checkout block with unique functionality for the customers on the checkout page. Each customization has multiple conditions, priority, status and settings for the merchants.            |
-| Category - C          | It refers to the main category for the customization like Upsell, Notifications, Cart Item Details.                                                                                                       |
-| Upsell (C)            | Suggesting extra or better products to buy at a store.                                                                                                                                                    |
-| Notifications (C)     | Messages or images that tell you something new or important happening online.                                                                                                                             |
-| Cart Item Details (C) | Changing what you want to buy before paying at checkout.                                                                                                                                                  |
-| Type:                 | It refers to specific options in each category like: Dynamic and Static types for Upsell category, Banner and Content for Notifications. Edit Quantity, Add Notes and Display Tags for Cart Item Details. |
-| Dynamic Upsell (T)    | It uses product metafields to Upsell products on the checkout page.                                                                                                                                       |
-| Static Upsell (T)     | It uses manual product selection in order to Upsell products on the checkout page.                                                                                                                        |
-| Banner (T)            |  It uses banner components to display textual information with status on the checkout.                                                                                                                    |
-| Content (T)           | It uses text and image to display information on the checkout.                                                                                                                                            |
-| Form Elements (T)     | It uses form elements like checkbox and text field to enable the customers to share information on the checkout.                                                                                          |
-| Edit Quantity (T)     |  It allows customers to update the quantity of each cart line item from checkout.                                                                                                                         |
-| Add Notes (T)         | It allows customers to add different notes for each cart line item on the checkout.                                                                                                                       |
-| Display Tags (T)      | It allows merchants to display custom tags on the checkout.                                                                                                                                               |
-| Placement:            | It refers to the location or positioning of the customization block on the checkout page. The Placement-ID is required for each customization block to display them properly on the checkout.             |
-| Dynamic Blocks (P)    | It refers to major or main positions on the checkout page like After Shipping, After Email, After Cart Item List, After Subtotal, After Discounts.                                                        |
-| Static Blocks (P)     | It refers to specific positions for specific functionalities on the checkout page like After Cart Item, After Shipping option and etc.                                                                    |
+---
 
-<details>
-<summary>Conditions:</summary>
+## Conditions Reference
 
-1. Cart Total
-2. Cart Subtotal
-3. Line Item Property (Key)
-4. Product Title
-5. Product vendor
-6. Product Tags
-7. Customer Lifetime Spending
-8. Customer Tags
-9. Customer Type
+Conditions determine **when** a customization is displayed during checkout. You can combine multiple conditions to show content only for qualifying customers or carts.
 
-</details>
+<AccordionGroup>
+  <Accordion title="Cart Conditions" icon="cart-shopping">
+    Cart conditions evaluate the overall state of the customer's cart.
+
+    - Cart total
+    - Cart subtotal
+  </Accordion>
+
+  <Accordion title="Line Item Conditions" icon="list-check">
+    Line item conditions evaluate the products currently in the cart.
+
+    - Product title
+    - Product vendor
+    - Product tags
+    - Line item property (key)
+  </Accordion>
+
+  <Accordion title="Customer Conditions" icon="user">
+    Customer conditions evaluate attributes of the customer completing the purchase.
+
+    - Customer lifetime spending
+    - Customer tags
+    - Customer type (B2B or B2C)
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Placement
+
+Every customization must be assigned to a valid checkout placement before it can appear to customers.
+
+- **Dynamic Blocks** provide flexible locations throughout the checkout flow for banners, upsells, content, and custom fields.
+- **Static Blocks** are dedicated locations designed for specific checkout components, such as cart items or shipping options.
+
+Choose the placement that best fits your customization so it appears naturally within the customer's checkout journey.
+
+<Tip>
+  Use conditions together with placements to display the right customization to the right customer at the right moment.
+</Tip>
+
+<Note>
+  Dynamic Checkout Customizer is available exclusively for **Shopify Plus** stores that support Checkout Extensibility.
+</Note>
