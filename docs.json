@@ -88,6 +88,7 @@
                       "dcc/overview/getting-started",
                       "dcc/overview/getting-started",
                       "dcc/overview/getting-started",
+                      "dcc/overview/getting-started",
                       "dcc/overview/getting-started"
                     ]
                   },
@@ -102,7 +103,8 @@
                     "group": "Use Cases",
                     "pages": [
                       "dcc/use-cases/customize-shipping",
-                      "dcc/use-cases/customize-payments"
+                      "dcc/use-cases/customize-payments",
+                      "dcc/use-cases/untitled-page"
                     ]
                   },
                   {
