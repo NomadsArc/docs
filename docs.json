@@ -189,6 +189,7 @@
                       "dcc/overview/getting-started",
                       "dcc/overview/getting-started",
                       "dcc/overview/getting-started",
+                      "dcc/overview/getting-started",
                       "dcc/overview/getting-started"
                     ]
                   },
@@ -203,6 +204,7 @@
                     "group": "Use Cases",
                     "pages": [
                       "dcc/use-cases/customize-shipping",
+                      "dcc/use-cases/customize-payments",
                       "dcc/use-cases/untitled-page",
                       "dcc/use-cases/untitled-page",
                       "dcc/use-cases/untitled-page-1",
@@ -1497,6 +1499,17 @@
                       "dcc/use-cases/trust-badges",
                       "dcc/use-cases/trustpilot-reviews-image",
                       "dcc/use-cases/address-validation",
+                      "dcc/use-cases/content-for-b2b-b2c",
+                      "dcc/use-cases/custom-fields",
+                      "dcc/use-cases/display-tags",
+                      "dcc/use-cases/promotional-banner",
+                      "dcc/use-cases/quantity-selector",
+                      "dcc/use-cases/shipping-and-customs-policies",
+                      "dcc/use-cases/static-upsell",
+                      "dcc/use-cases/supported-payment-icons",
+                      "dcc/use-cases/survey-form",
+                      "dcc/use-cases/trust-badges",
+                      "dcc/use-cases/trustpilot-reviews-image",
                       "dcc/use-cases/content-for-b2b-b2c",
                       "dcc/use-cases/custom-fields",
                       "dcc/use-cases/display-tags",
