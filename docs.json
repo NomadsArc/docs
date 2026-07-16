@@ -62,7 +62,7 @@
                   {
                     "group": "Overview",
                     "pages": [
-                      "dcc/overview/welcome",
+                      "dcc/overview/introduction",
                       "dcc/overview/our-features",
                       "dcc/overview/getting-started"
                     ]
@@ -70,8 +70,6 @@
                   {
                     "group": "Use Cases",
                     "pages": [
-                      "dcc/use-cases/customize-shipping",
-                      "dcc/use-cases/customize-payments",
                       "dcc/use-cases/dynamic-upsell",
                       "dcc/use-cases/static-upsell",
                       "dcc/use-cases/promotional-banner",

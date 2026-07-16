@@ -5,44 +5,58 @@ How to validate the **Address lines** using Character limit on the checkout page
 
 <iframe src="https://drive.google.com/file/d/1VLz73JBkACvzaKPQkVLnkbmrjHWvVpMu/preview" width="640" height="480" allow="autoplay"></iframe>
 
-*Address Validation*
 
 ## Guide
 
-1. Go to [Settings](https://admin.shopify.com/apps/dynamic-checkout-customizer/settings) page and click [Address Validation](https://admin.shopify.com/apps/dynamic-checkout-customizer/settings) tab.
+<Steps>
+  <Step title="Open Address Validation settings">
+    Go to the [Settings](https://admin.shopify.com/apps/dynamic-checkout-customizer/settings) page and open the **Address Validation** tab.
 
-![](/images/4118efee6e.png)
+    ![](/images/4118efee6e.png)
+  </Step>
 
-2. Add a new condition source **Address Line 1** from the Character Limit option.
+  <Step title="Configure a validation rule">
+    Add a new validation condition for **Address Line 1** using the **Character Limit** option.
 
-![](/images/4c68f0b559.png)
+    ![](/images/4c68f0b559.png)
+  </Step>
 
-3. **Save** and **Enable** the settings.
+  <Step title="Save and enable the validation">
+    Click **Save** and **Enable** to activate the Address Validation settings.
 
-![](/images/17927f5176.png)
+    ![](/images/17927f5176.png)
 
-:::info
+    <Note>
+      If you need a custom **Regular Expression (Regex)** for advanced validation, please contact our support team.
+    </Note>
+  </Step>
 
-Incase of custom Regex, please contact our [support](https://calendly.com/san-nomads/30-min-meeting?back=1\&month=2024-03) team.
+  <Step title="Open the Checkout Editor">
+    Go to your Shopify **Settings → Checkout**, select your checkout profile, and click **Customize**.
 
-:::
+    ![](/images/ebe8a89b62.png)
+  </Step>
 
-4. Go to store [Settings](https://admin.shopify.com/settings), click Checkout and then select a checkout profile and click on **customize** button to start the customization process.
+  <Step title="Add the app block">
+    In the Checkout Editor, click **Add app block**.
 
-![](/images/ebe8a89b62.png)
+    ![](/images/e989097815.png)
+  </Step>
 
-5. In the [Checkout editor](https://admin.shopify.com/settings/checkout/editor), click on the **Add app block** button located at the bottom left corner of the page.
+  <Step title="Select Address Validation">
+    Choose the **Checkout – Address Validation** app block and place it in your checkout.
 
-![](/images/e989097815.png)
+    ![](/images/2a0957ef7c.png)
+  </Step>
 
-6. Select the **Checkout - Address Validation** app block for Address Validation.
+  <Step title="Publish your changes">
+    Click **Save** in the Checkout Editor to publish the customization. Refresh your checkout page to verify that Address Validation is active.
 
-![](/images/2a0957ef7c.png)
+    ![](/images/8d48b3e7fb.png)
+  </Step>
+</Steps>
+ <Note>
+  **Why does it matter?**
 
-7. Click on the **Save** button to publish the changes live for the customers. Refresh the page to view the changes on the checkout page.
-
-![](/images/8d48b3e7fb.png)
-
-## Why does it matter?
-
-**Address Validation** customization for validation of Address lines can reduce the Shipping and Logistics cost by **10%**.
+  Address Validation helps reduce shipping errors by validating customer address input during checkout. This can reduce shipping and logistics costs by **up to 10%** while improving delivery accuracy and customer satisfaction.
+</Note>
