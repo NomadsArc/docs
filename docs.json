@@ -111,6 +111,7 @@
                       "dcc/overview/getting-started",
                       "dcc/overview/getting-started",
                       "dcc/overview/getting-started",
+                      "dcc/overview/getting-started",
                       "dcc/overview/getting-started"
                     ]
                   },
@@ -124,8 +125,6 @@
                   {
                     "group": "Use Cases",
                     "pages": [
-                      "dcc/use-cases/customize-shipping",
-                      "dcc/use-cases/customize-payments",
                       "dcc/use-cases/untitled-page",
                       "dcc/use-cases/untitled-page",
                       "dcc/use-cases/untitled-page-1",
@@ -350,7 +349,21 @@
                       "dcc/use-cases/untitled-page-9",
                       "dcc/use-cases/untitled-page-10",
                       "dcc/use-cases/untitled-page-11",
-                      "dcc/use-cases/dynamic-upsell"
+                      "dcc/use-cases/dynamic-upsell",
+                      "dcc/use-cases/add-notes",
+                      "dcc/use-cases/address-validation",
+                      "dcc/use-cases/untitled-page",
+                      "dcc/use-cases/untitled-page-1",
+                      "dcc/use-cases/untitled-page-2",
+                      "dcc/use-cases/dynamic-upsell",
+                      "dcc/use-cases/untitled-page-4",
+                      "dcc/use-cases/untitled-page-5",
+                      "dcc/use-cases/untitled-page-6",
+                      "dcc/use-cases/untitled-page-7",
+                      "dcc/use-cases/untitled-page-8",
+                      "dcc/use-cases/untitled-page-9",
+                      "dcc/use-cases/untitled-page-10",
+                      "dcc/use-cases/untitled-page-11"
                     ]
                   },
                   {
