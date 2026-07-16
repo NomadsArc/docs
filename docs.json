@@ -63,6 +63,7 @@
                     "group": "Overview",
                     "pages": [
                       "dcc/overview/introduction",
+                      "dcc/overview/features",
                       "dcc/overview/our-features",
                       "dcc/overview/getting-started"
                     ]
