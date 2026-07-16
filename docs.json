@@ -61,7 +61,10 @@
                 "groups": [
                   {
                     "group": "Overview",
-                    "pages": []
+                    "pages": [
+                      "dcc/overview/welcome",
+                      "dcc/overview/features"
+                    ]
                   },
                   {
                     "group": "Quickstart",
