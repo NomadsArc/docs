@@ -1582,6 +1582,16 @@
                       "dcc/use-cases/supported-payment-icons",
                       "dcc/use-cases/survey-form",
                       "dcc/use-cases/trust-badges",
+                      "dcc/use-cases/trustpilot-reviews-image",
+                      "dcc/use-cases/custom-fields",
+                      "dcc/use-cases/display-tags",
+                      "dcc/use-cases/promotional-banner",
+                      "dcc/use-cases/quantity-selector",
+                      "dcc/use-cases/shipping-and-customs-policies",
+                      "dcc/use-cases/static-upsell",
+                      "dcc/use-cases/supported-payment-icons",
+                      "dcc/use-cases/survey-form",
+                      "dcc/use-cases/trust-badges",
                       "dcc/use-cases/trustpilot-reviews-image"
                     ]
                   },
