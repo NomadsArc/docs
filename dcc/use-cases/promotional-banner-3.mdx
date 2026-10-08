@@ -1,0 +1,85 @@
+---
+title: "Free Shipping Threshold"
+---
+
+How to display **Promo Discount Banners** on Checkout using the **Notification -\> Banner** option? A Step by Step Guide.
+
+<iframe src="https://www.loom.com/embed/23c1d08387994e2fbdfe76bc69f4e429" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen width="100%" height="480" />
+
+## Guide
+
+<Steps>
+  <Step title="Create a new customization">
+    Create a new [customization](https://admin.shopify.com/apps/dynamic-checkout-customizer/customizations).
+
+    ![](/images/screenshot_13.png)
+  </Step>
+  <Step title="Choose the CRO">
+    Select **Free shipping threshold **from the available notification types to display informational or promotional banners during checkout.
+
+    ![Screenshot 2026 10 08 At 19 12 44](/images/Screenshot-2026-10-08-at-19.12.44.png "Screenshot 2026 10 08 At 19 12 44")
+  </Step>
+  <Step title="Configure display conditions">
+    Add one or more **conditions** to control when the banner is displayed during checkout.
+
+    ![Screenshot 2026 10 08 At 19 13 13](/images/Screenshot-2026-10-08-at-19.13.13.png "Screenshot 2026 10 08 At 19 13 13")
+  </Step>
+  <Step title="Configure the banner">
+    Customize the banner by selecting its **Threshold Amount **and entering the **Title** that customers will see during checkout with **Message**.
+
+    ![Screenshot 2026 10 08 At 19 13 43](/images/Screenshot-2026-10-08-at-19.13.43.png "Screenshot 2026 10 08 At 19 13 43")
+  </Step>
+  <Step title="Display Settings">
+    ![Screenshot 2026 10 08 At 19 14 12](/images/Screenshot-2026-10-08-at-19.14.12.png "Screenshot 2026 10 08 At 19 14 12")
+  </Step>
+  <Step title="Activate the customization">
+    Change the **Status** to **Active** to enable the customization.
+
+    ![Screenshot 2026 10 08 At 19 15 10](/images/Screenshot-2026-10-08-at-19.15.10-1.png "Screenshot 2026 10 08 At 19 15 10")
+  </Step>
+  <Step title="Set the priority">
+    Configure the **Priority** (0–100) to determine the execution order when multiple customizations are eligible.
+
+    ![Screenshot 2026 10 08 At 19 15 32](/images/Screenshot-2026-10-08-at-19.15.32-1.png "Screenshot 2026 10 08 At 19 15 32")
+  </Step>
+  <Step title="Copy the Placement ID">
+    Open the **Placement** tab and copy the generated **Placement ID**. You'll use this in the Shopify Checkout Editor.
+
+    ![Screenshot 2026 10 08 At 19 16 17](/images/Screenshot-2026-10-08-at-19.16.17.png "Screenshot 2026 10 08 At 19 16 17")
+  </Step>
+  <Step title="Save the customization">
+    Click **Save** to store your configuration.
+
+    ![Image (10)](/images/Screenshot-2026-10-08-at-19.15.10-1.png "Image (10)")
+  </Step>
+  <Step title="Open the Checkout Editor">
+    Go to your Shopify [Settings](https://admin.shopify.com/settings)**→ Checkout**, select your checkout profile, and click **Customize**.
+
+    ![](/images/screenshot_08.png)
+  </Step>
+  <Step title="Add the app block">
+    In the Checkout Editor, click **Add app block**.
+
+    ![Image (4)](/images/image-\(4\).png "Image (4)")
+
+    <Note>
+      Make sure the app block is placed in the same checkout placement you selected in Dynamic Checkout Customizer.
+    </Note>
+  </Step>
+  <Step title="Configure the app block">
+    Select the **Checkout – Instruction Banner** app block, drag it to the desired location, and paste the copied **Placement ID**.
+
+    ![Image (5)](/images/image-\(5\).png "Image (5)")
+  </Step>
+  <Step title="Publish your changes">
+    Click **Save** in the Checkout Editor to publish the customization.
+
+    ![](/images/de49128f10.png)
+  </Step>
+</Steps>
+
+<Note>
+  **Why does it matter?**
+
+  [Balardi](https://balardi.com/) uses the **Banner Notifications** customization to display important messages and promotional information during checkout, helping improve customer confidence and contributing to higher conversion rates.
+</Note>
