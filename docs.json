@@ -83,7 +83,8 @@
                       "dcc/use-cases/quantity-selector",
                       "dcc/use-cases/add-notes",
                       "dcc/use-cases/display-tags",
-                      "dcc/use-cases/address-validation"
+                      "dcc/use-cases/address-validation",
+                      "dcc/use-cases/address-validation-2"
                     ]
                   },
                   {

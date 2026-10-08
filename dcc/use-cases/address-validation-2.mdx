@@ -1,0 +1,77 @@
+---
+title: "Remove Cart Item"
+---
+
+This will let the customer to remove cart items during checkout
+
+<iframe src="https://drive.google.com/file/d/1VLz73JBkACvzaKPQkVLnkbmrjHWvVpMu/preview" width="640" height="480" allow="autoplay" />
+
+## Guide
+
+<Steps>
+  <Step title="**Create a new customization**">
+    Create a new [**customization**](https://admin.shopify.com/apps/dynamic-checkout-customizer/customizations).
+
+    ![](/images/screenshot_13.png)
+  </Step>
+  <Step title="**Choose the Remove option**">
+    Choose the **Remove** option from Cart Item Details section
+
+    ![Screenshot 2026 10 08 At 17 01 06](/images/Screenshot-2026-10-08-at-17.01.06.png "Screenshot 2026 10 08 At 17 01 06")
+  </Step>
+  <Step title="**Configure display condition**">
+    Add one or more conditions to control Remove option.
+
+    ![Screenshot 2026 10 08 At 17 01 41](/images/Screenshot-2026-10-08-at-17.01.41.png "Screenshot 2026 10 08 At 17 01 41")
+  </Step>
+  <Step title="**Check Remove Item**">
+    Check Remove Item from Action Section to enable the relevant action.
+
+    ![Screenshot 2026 10 08 At 17 01 54](/images/Screenshot-2026-10-08-at-17.01.54.png "Screenshot 2026 10 08 At 17 01 54")
+  </Step>
+  <Step title="**Set the priority**">
+    Configure the Priority (0–100) to determine the execution order when multiple customizations are eligible.
+
+    ![Screenshot 2026 10 08 At 17 02 13](/images/Screenshot-2026-10-08-at-17.02.13-2.png "Screenshot 2026 10 08 At 17 02 13")
+  </Step>
+  <Step title="**Copy the Placement ID**">
+    Open the **Placement** tab and copy the generated **Placement ID**. You’ll use this in the Shopify Checkout Editor.
+
+    ![Screenshot 2026 10 08 At 17 02 50](/images/Screenshot-2026-10-08-at-17.02.50.png "Screenshot 2026 10 08 At 17 02 50")
+  </Step>
+  <Step title="**Activate the customization**">
+    Change the **Status** to **Active** to enable the customization.
+
+    ![Screenshot 2026 10 08 At 17 02 26](/images/Screenshot-2026-10-08-at-17.02.26.png "Screenshot 2026 10 08 At 17 02 26")
+  </Step>
+  <Step title="Open the Checkout Editor">
+    Go to your Shopify [**Settings**](https://admin.shopify.com/settings)\*\* → Checkout\*\*, select your checkout profile, and click **Customize**.
+
+    ![](/images/screenshot_08.png)
+  </Step>
+  <Step title="Add the app block">
+    In the [Checkout Editor](https://admin.shopify.com/settings/checkout/editor), click **Add app block**.
+
+    ![Screenshot 2026 10 08 At 16 32 10](/images/Screenshot-2026-10-08-at-16.32.10.png "Screenshot 2026 10 08 At 16 32 10")
+
+    <Note>
+      Make sure the app block is placed in the same checkout placement you selected in Dynamic Checkout Customizer.
+    </Note>
+  </Step>
+  <Step title="Configure the app block">
+    Select the **Checkout – Image Content** app block, drag it to the desired location, and paste the copied **Placement ID**.
+
+    ![Screenshot 2026 10 08 At 16 32 42](/images/Screenshot-2026-10-08-at-16.32.42.png "Screenshot 2026 10 08 At 16 32 42")
+  </Step>
+  <Step title="Publish your changes">
+    Click **Save** in the Checkout Editor to publish the customization.
+
+    ![](/images/Screenshot-2026-10-08-at-16.32.42.png)
+  </Step>
+</Steps>
+
+<Note>
+  **Why does it matter?**
+
+  Address Validation helps reduce shipping errors by validating customer address input during checkout. This can reduce shipping and logistics costs by **up to 10%** while improving delivery accuracy and customer satisfaction.
+</Note>
