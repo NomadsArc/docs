@@ -2,59 +2,59 @@
 title: "🔢 Line Item Editor"
 ---
 
-How to display a **Quantity Selector** for each cart item on the Checkout using the **Cart Item Details -\> Adjust Quantity** option.
+How to display a **Quantity Selector** for each cart item on the Checkout using the **Template/Custom ->** **Cart Item Details -> Line item editor** option.
 
 <iframe src="https://www.loom.com/embed/450773eaed82428d8c238a73b8ba3bbe" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen width="100%" height="480" />
 
 ## Guide
 
 <Steps>
-  <Step title="Create a new customization">
+  <Step title="**Create a new customization**">
     Create a new [customization](https://admin.shopify.com/apps/dynamic-checkout-customizer/customizations).
 
     ![Image](/images/image-40.png "Image")
   </Step>
-  <Step title="Select the Cart Item Details category">
-    Choose \*\*Line Item Editor \*\*as the customization of Cart Item Detail.
+  <Step title="**Select the Cart Item Details category**">
+    Choose Line Item Editor as the customization from available types of Cart Item Detail.
 
     ![Custom Cart Item Details Card Focus](/images/custom_cart_item_details_card_focus.png "Custom Cart Item Details Card Focus")
   </Step>
-  <Step title="Configure display conditions">
+  <Step title="**Configure display conditions**">
     Add one or more **conditions** to control when the quantity selector is displayed during checkout.
 
     ![Line Item Conditional Experience Focus](/images/line_item_conditional_experience_focus.png "Line Item Conditional Experience Focus")
   </Step>
-  <Step title="Configure Line Item Actions">
+  <Step title="**Configure Line Item Actions**">
     Click on Quantity Stepper checkbox to configure relevant action.
 
     ![Line Item Actions Focus](/images/line_item_actions_focus.png "Line Item Actions Focus")
   </Step>
-  <Step title="Set the priority">
+  <Step title="**Set the priority**">
     Configure the **Priority** (0–100) to determine the execution order when multiple customizations are eligible.
 
     ![Line Item Priority Focus](/images/line_item_priority_focus.png "Line Item Priority Focus")
   </Step>
-  <Step title="Activate the customization">
-    Change the **Status** to **Active** to enable the customization.
+  <Step title="**Activate the customization**">
+    Change the **Status** to **Active** using toggle button to enable the customization.
 
     ![Line Item Toolbar Focus](/images/line_item_toolbar_focus.png "Line Item Toolbar Focus")
   </Step>
-  <Step title="Copy the Placement ID">
-    Open the **Placement** tab and copy the generated **Placement ID**. You'll use this in the Shopify Checkout Editor.
+  <Step title="**Copy the Placement ID**">
+    Copy the generated **Placement ID** from clipboard icon. You'll use this in the Shopify Checkout Editor.
 
     ![Line Item Copy Placement Id Focus](/images/line_item_copy_placement_id_focus.png "Line Item Copy Placement Id Focus")
   </Step>
-  <Step title="Save the customization">
+  <Step title="**Save the customization**">
     Click **Save** to store your configuration.
 
     ![Line Item Unsaved Changes Focus](/images/line_item_unsaved_changes_focus.png "Line Item Unsaved Changes Focus")
   </Step>
-  <Step title="Open the Checkout Editor">
-    Go to your Shopify [**Settings**](https://admin.shopify.com/settings)\*\* → Checkout\*\*, select your checkout profile, and click **Customize**.
+  <Step title="**Open the Checkout Editor**">
+    Go to your Shopify [**Settings**](https://admin.shopify.com/settings) → Checkout, select your checkout profile, and click **Edit**.
 
     ![](/images/screenshot_08.png)
   </Step>
-  <Step title="Add the app block">
+  <Step title="**Add the app block**">
     In the [Checkout Editor](https://admin.shopify.com/settings/checkout/editor), click **Add app block**.
 
     ![Screenshot 2026 10 08 At 16 32 10](/images/Screenshot-2026-10-08-at-16.32.10.png "Screenshot 2026 10 08 At 16 32 10")
@@ -63,12 +63,12 @@ How to display a **Quantity Selector** for each cart item on the Checkout using 
       Make sure the app block is placed in the same checkout placement you selected in Dynamic Checkout Customizer.
     </Note>
   </Step>
-  <Step title="Configure the app block">
-    Select the **Checkout – Image Content** app block, drag it to the desired location, and paste the copied **Placement ID**.
+  <Step title="**Configure the app block**">
+    Select the **Checkout – Edit cart item** app block, and paste the copied **Placement ID**.
 
     ![Screenshot 2026 10 08 At 16 32 42](/images/Screenshot-2026-10-08-at-16.32.42.png "Screenshot 2026 10 08 At 16 32 42")
   </Step>
-  <Step title="Publish your changes">
+  <Step title="**Publish your changes**">
     Click **Save** in the Checkout Editor to publish the customization.
 
     ![](/images/Screenshot-2026-10-08-at-16.32.42.png)
